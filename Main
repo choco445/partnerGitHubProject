@@ -1,1 +1,5 @@
 //hello//
+@FunctionalInterface
+interface Adder {
+    int addNumber(int start, int end);
+}
