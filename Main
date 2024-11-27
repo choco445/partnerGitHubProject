@@ -3,3 +3,20 @@
 interface Adder {
     int addNumber(int start, int end);
 }
+
+public class Main {
+    public static void main(String[] args) {
+
+            Adder add = (a, b) -> {
+                int sum = 0;
+                for (int i = a; i <= b; i++) {
+                    sum += i;
+                }
+                return sum;
+            };
+
+            int result = add.addNumber(start, end);
+            System.out.println("The sum: " + result);
+
+    }
+}
