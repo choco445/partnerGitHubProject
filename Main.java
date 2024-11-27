@@ -12,7 +12,7 @@ public class Main {
         }
 
         try{
-            
+
             int start = Integer.parseInt(args[0]);
             int end = Integer.parseInt(args[1]);
 
